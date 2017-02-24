@@ -79,7 +79,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'swiftmotion_db',
-        'USER': 'tinhnguyen',
+        'USER': 'swiftmotion',
         'PASSWORD': 'password123',
         'HOST': 'localhost',
         'PORT': '',
