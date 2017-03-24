@@ -2,8 +2,7 @@ from django.db import models
 
 gc = (
     ('M', 'Male'),
-    ('F', 'Female'),
-    ('O', 'Other')
+    ('F', 'Female')
 )
 
 

@@ -2,3 +2,8 @@
 	-webkit-appearance: none;
 	border: none;
 }
+
+.upload_form {
+	display: block;
+	text-align: center;
+}

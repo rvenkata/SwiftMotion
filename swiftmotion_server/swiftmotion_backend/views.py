@@ -1,10 +1,14 @@
+from .forms import UploadCSVForm
+
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
-from .forms import UploadCSVForm
 from rest_framework.decorators import api_view
 from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.response import Response
+
+
+
 
 # Create your views here.
 def index(request):
